@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24798F43208FE530006BFD9D /* LeftHanderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24798F42208FE530006BFD9D /* LeftHanderTableViewCell.swift */; };
+		24798F45208FE74A006BFD9D /* LeftHanderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24798F44208FE74A006BFD9D /* LeftHanderTableViewController.swift */; };
 		24DC62722086E0BB0092F29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC62712086E0BB0092F29B /* AppDelegate.swift */; };
 		24DC62742086E0BB0092F29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC62732086E0BB0092F29B /* ViewController.swift */; };
 		24DC62772086E0BB0092F29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DC62752086E0BB0092F29B /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24798F42208FE530006BFD9D /* LeftHanderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftHanderTableViewCell.swift; sourceTree = "<group>"; };
+		24798F44208FE74A006BFD9D /* LeftHanderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftHanderTableViewController.swift; sourceTree = "<group>"; };
 		24DC626E2086E0BB0092F29B /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DC62712086E0BB0092F29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DC62732086E0BB0092F29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				24DC62712086E0BB0092F29B /* AppDelegate.swift */,
 				24DC62732086E0BB0092F29B /* ViewController.swift */,
 				24DC62752086E0BB0092F29B /* Main.storyboard */,
+				24798F44208FE74A006BFD9D /* LeftHanderTableViewController.swift */,
+				24798F42208FE530006BFD9D /* LeftHanderTableViewCell.swift */,
 				24DC62782086E0BB0092F29B /* Assets.xcassets */,
 				24DC627A2086E0BB0092F29B /* LaunchScreen.storyboard */,
 				24DC627D2086E0BB0092F29B /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				24DC62742086E0BB0092F29B /* ViewController.swift in Sources */,
 				24DC62722086E0BB0092F29B /* AppDelegate.swift in Sources */,
+				24798F45208FE74A006BFD9D /* LeftHanderTableViewController.swift in Sources */,
+				24798F43208FE530006BFD9D /* LeftHanderTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
