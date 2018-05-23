@@ -28,6 +28,7 @@ class ViewController: UIViewController {
             if Int(currentDisplay)! == 0 || reset {
                 currentDisplay = ""
             }
+            
             currentDisplay = currentDisplay + String(digit)
             self.displayLabel.text = currentDisplay
             reset = false
@@ -52,12 +53,20 @@ class ViewController: UIViewController {
                 operation = .multiply
             }   else if symbol == "÷" {
                 operation = .divide
-            } else if symbol == "=" {
+            }   else if symbol == "=" {
                 operation = .equal
             }
             
             reset = true
             displayLabel.text = String(accumulator)
         }
+    }
+    
+    @IBAction func shakeButtonPressed(_ sender: UIButton) {
+        sender.shake()
+    }
+    
+    @IBAction func flashButtonPressed(_ sender: UIButton) {
+        sender.flash()
     }
 }
